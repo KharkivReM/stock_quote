@@ -14,7 +14,7 @@ module StockQuote
     URL =  "https://api.iextrading.com/#{VERSION}/stock/"
     ATTRIBUTION = "Data provided for free by IEX (https://iextrading.com/developer)."
     RANGES = ['5y','2y','1y','ytd','6m','3m','1m','1d']
-    TYPES = ['book', 'chart', 'company', 'delayed_quote', 'dividends', 'earnings', 'effective_spread', 'financials', 'splits', 'stats','logo', 'news', 'ohlc', 'peers', 'previous', 'quote', 'relevant', 'splits',  'volume_by_venue']
+    TYPES = ['book', 'chart', 'company', 'delayed_quote', 'dividends', 'earnings', 'effective_spread', 'financials', 'splits', 'stats','logo', 'news', 'ohlc', 'peers', 'previous', 'price', 'quote', 'relevant', 'splits',  'volume_by_venue']
     # LISTS = ['mostactive','gainers', 'losers', 'iexvolume','iexvolume']
     # TBD = ['threshold_securities','short_interest']
   
